@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": "uid"
+    },
+    "leads": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": []
+    }
+  }
+}
